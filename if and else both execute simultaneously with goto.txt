@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int x;
+   if(1){
+      label1: printf("Saroja",x);
+      goto label2;
+   }
+   else{
+      label2: printf("samantha",x);
+   }
+    return 0;
+    getch();
+}

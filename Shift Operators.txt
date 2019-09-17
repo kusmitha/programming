@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int x,y;
+    x=32;
+    y=-32;
+    printf("32 shifted to left:");
+    printf("%d",x<<1);
+    printf("\n32 shifted to right:");
+    printf("%d",x>>1);
+    printf("\n-32 shifted to left:");
+    printf("%d",y<<1);
+    printf("\n-32 shifted to right:");
+    printf("%d",y>>1);
+    return 0;
+    getch();
+}

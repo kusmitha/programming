@@ -1,0 +1,17 @@
+#include <stdio.h>
+void big(int a,int b,int c);
+int main()
+{
+    
+void big(int a,int b,int c){
+    if(a>b && a>c)
+        printf("\n%d is big Number",a);
+    if(b>a && b>c)
+        printf("\n%d is big Number",b);
+    if(c>b && c>a)
+        printf("\n%d is big Number",c);
+}
+big(1,2,3);
+big(2,7,3);
+    return 0;
+}

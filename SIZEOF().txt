@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("SIZE OF LONG INT & LONG LONG INT:");
+  printf("%d,%d",sizeof(long int),sizeof(long long int));
+  printf("\nSIZE OF  INT & CHAR:");
+  printf("%d,%d",sizeof(int),sizeof(char));
+  
+  short int a;
+  printf("\n%d",sizeof(a));
+
+  printf("\n%d",sizeof(short int));
+  getch();
+  return 0;
+}

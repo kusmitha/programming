@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    typedef int raj;
+    raj x=2;
+    printf("%d",x);
+    getch();
+    return 0;
+}

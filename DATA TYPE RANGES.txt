@@ -1,0 +1,19 @@
+#include<limits.h>
+#include<values.h>
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	printf("CHARACTER RANGES AND ITS SIZE IN BITS\n");
+	printf("%d,%d,%d",CHAR_MIN,CHAR_MAX,CHAR_BIT);
+	printf("\nSIGNED CHARACTER RANGES");
+	printf("\n%d,%d",SCHAR_MIN,SCHAR_MAX);
+	printf("\nINTEGER RANGES");
+	printf("\n%d,%d",INT_MIN,INT_MAX);
+	printf("\nLONG INTEGER RANGES");
+	printf("\n%d,%d",LONG_MIN,LONG_MAX);
+	printf("\nSHORT INTEGER RANGES");
+	printf("\n%d,%d",SHRT_MIN,SHRT_MAX);
+	getch();
+	return 0;
+}

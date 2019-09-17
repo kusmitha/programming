@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int x;
+    enum color {RED,BLUE,GREEN};
+    enum color a;
+    enum color b;
+    a=BLUE+GREEN;
+    b=BLUE;
+    printf("%d",a);
+    printf("\n%d",b);
+   return 0;
+   getch();
+}

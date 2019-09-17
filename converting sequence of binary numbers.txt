@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    short int x=1,i,j;
+    for(j=0;j<=18;j++){
+    printf("%d \t",x);
+    for(i=15;i>=0;i--)
+    {
+        x&(1<<i)?printf("1"):printf("0");
+    }
+    x++;
+    printf("\n");
+    }
+	return 0;
+	getch();
+}

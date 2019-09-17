@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=3,j=0,k=-1,m;
+ // m=i++ && j && ++k;  
+ // m= ++k && j++ && ++i;
+  //  m=i-- && ++j && k--;
+  //  m=i++||j&&++k;
+  //  m=--k&&j++||++k;
+     m= ++j||++k||i--;
+    printf("%d %d %d %d",i,j,k,m);
+    return 0;
+    getch();
+}

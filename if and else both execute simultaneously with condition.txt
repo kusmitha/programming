@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+   if (!printf("hello"))
+   {
+   printf("hello");
+  }
+else{
+   printf(" world");
+}
+ 
+    return 0;
+    getch();
+}
